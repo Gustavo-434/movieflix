@@ -1,0 +1,115 @@
+:root{
+    --cor-de-fundo: #000800;
+    --branco-princial: #ffffff;
+--botao_azul:#167Bf7;
+--cinza-secundario:#c0c0c0;
+-moz-font;
+
+*{margin: 0;
+padding: 0;}
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-princial);
+   font-family: "Inder", sans-serif;
+    font-size: 1rem;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.principal{
+    background-image:url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+align-items:center;
+text-align: center;} 
+    .container-botao{
+    background-color: var(--botao_azul);
+    border-radius:10px;
+    padding:1em;
+    color: var(--branco-princial);
+    text-decoration:none ;
+    display: block;
+    margin-bottom:1em;
+}
+.botao-secundario {background-color: transparent;
+border:2px solid var(--branco-princial);}
+
+.container-aviso{ color: var(--cinza-secundario);
+font-size: 0.75rem;
+}
+
+.container-imagem{
+    margin: 2em 0 2em 0;
+}
+.container-caixa{
+    margin: 0 6em;
+}    
+.secundario-imagem{
+width: 80%;
+
+}
+.secundario{align-items: center;
+text-align: center;
+margin: 0 10rem;
+font-family: "Inder", sans-serif;
+}
+.descricao-titulo{font-weight: 700;
+font-size: 3rem;
+color: var(--branco-princial);
+margin: bottom 0.1em;}
+.descricao-texto{
+ color: var(--cinza-secundario);
+ text-align: center;
+}
+.container-descricao{padding: 2em;
+}
+.secundario-botao{
+    display: inline-block;
+
+}
+.secundario-imagens2{width: 79%}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos-titulo{font-size: 3rem;
+color: var(--branco-princial);
+}
+.dispositivos-lista{display: flex;
+justify-content: center;
+list-style-type: none;
+margin-top: 1em;}
+
+.lista-item{
+    font-size: 1rem;
+    color: var(--branco-princial);
+}
+.rodape{text-align: center;
+margin: 3em 3em;
+color: azure;}
+
+.logo-rodape{
+    width: 120px;
+    text-align: center;
+color: var(--branco-princial);
+}
+.rodape-lista{display: flex;
+justify-content: center;
+list-style-type: none;
+margin: 1em;
+color:var(--branco-princial);}
+
+.lista-link  {text-decoration: none;
+margin-left: 1em;}
+
+.lista-link :hover{
+    color: var(--branco-princial);
+
+}
+.lista-link :active{
+    color: blueviolet;
+}
+.red{color: aliceblue;}
