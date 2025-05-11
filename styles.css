@@ -3,6 +3,7 @@
     --branco-princial: #ffffff;
 --botao_azul:#167Bf7;
 --cinza-secundario:#c0c0c0;
+-moz-font;
 
 *{margin: 0;
 padding: 0;}
@@ -11,7 +12,7 @@ padding: 0;}
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-princial);
-    font-family: "Inder", sans-serif;
+   font-family: "Inder", sans-serif;
     font-size: 1rem;
 }
 .container{
@@ -20,11 +21,11 @@ body{
     grid-template-columns: 50% 50%;
 }
 .principal{
-    background-image:url(/imagens/Background.png);
+    background-image:url(Background.png);
     background-repeat: no-repeat;
     background-size: contain;
-text-align: center;
-align-items: center;} 
+align-items:center;
+text-align: center;} 
     .container-botao{
     background-color: var(--botao_azul);
     border-radius:10px;
@@ -46,101 +47,69 @@ font-size: 0.75rem;
 }
 .container-caixa{
     margin: 0 6em;
-}
+}    
 .secundario-imagem{
-    width: 80%;}
-    .secundario{align-items: center;
-        text-align: center;
-        margin: 0 10rem;
-        font-family: "Inder", sans-serif;
-        }
-        .descricao-titulo{font-weight: 700;
-            font-size: 3rem;
-            color: var(--branco-princial);
-            margin: bottom 0.1em;}
-            .descricao-texto{
-             color: var(--cinza-secundario);
-             text-align: center;
-            }
-            .container-descricao{padding: 2em;
-            }
-            .secundario-botao{
-                display: inline-block;
-            
-            }
-            .secundario-imagens2{width: 79%}
-            .dispositivos{
-                text-align: center;
-            }
-            .dispositivos-titulo{font-size: 3rem;
-            color: var(--branco-princial);
-            }
-            .dispositivos-lista{display: flex;
-            justify-content: center;
-            list-style-type: none;
-            margin-top: 1em;}
-            
-            .lista-item{
-                font-size: 1rem;
-                color: var(--branco-princial);
-            }
-            .rodape{text-align: center;
-            margin: 3em 3em;
-            color: azure;}
-            
-            .logo-rodape{
-                width: 120px;
-                text-align: center;
-            color: var(--branco-princial);
-            }
-            .rodape-lista{display: flex;
-            justify-content: center;
-            list-style-type: none;
-            margin: 1em;
-            color:var(--branco-princial);}
-            
-            .lista-link  {text-decoration: none;
-            margin-left: 1em;}
-            
-            .lista-link :hover{
-                color: var(--branco-princial);
-            
-            }
-            .lista-link :active{
-                color: blueviolet;
-            }
-            .red{color: aliceblue;}
-    
+width: 80%;
 
-@media (max-width: 768px) {
-    .container {
-        display: block;
-        height: auto;
-        padding: 2em 1em;
-    }
-
-    .container-caixa {
-        margin: 0;
-        padding: 1em;
-        text-align: center;
-    }
-
-    .container-titulo {
-        font-size: 1.25rem;
-    }
-
-    .container-botao {
-        width: 100%;
-        font-size: 1rem;
-    }
-
-    .principal {
-        background-size: cover;
-        background-position: center;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
 }
+.secundario{align-items: center;
+text-align: center;
+margin: 0 10rem;
+font-family: "Inder", sans-serif;
+}
+.descricao-titulo{font-weight: 700;
+font-size: 3rem;
+color: var(--branco-princial);
+margin: bottom 0.1em;}
+.descricao-texto{
+ color: var(--cinza-secundario);
+ text-align: center;
+}
+.container-descricao{padding: 2em;
+}
+.secundario-botao{
+    display: inline-block;
+
+}
+.secundario-imagens2{width: 79%}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos-titulo{font-size: 3rem;
+color: var(--branco-princial);
+}
+.dispositivos-lista{display: flex;
+justify-content: center;
+list-style-type: none;
+margin-top: 1em;}
+
+.lista-item{
+    font-size: 1rem;
+    color: var(--branco-princial);
+}
+.rodape{text-align: center;
+margin: 3em 3em;
+color: azure;}
+
+.logo-rodape{
+    width: 120px;
+    text-align: center;
+color: var(--branco-princial);
+}
+.rodape-lista{display: flex;
+justify-content: center;
+list-style-type: none;
+margin: 1em;
+color:var(--branco-princial);}
+
+.lista-link  {text-decoration: none;
+margin-left: 1em;}
+
+.lista-link :hover{
+    color: var(--branco-princial);
+
+}
+.lista-link :active{
+    color: blueviolet;
+}
+.red{color: aliceblue;}
