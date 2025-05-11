@@ -113,3 +113,35 @@ margin-left: 1em;}
     color: blueviolet;
 }
 .red{color: aliceblue;}
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .container-caixa {
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .container-titulo {
+        font-size: 1.25rem;
+    }
+
+    .container-botao {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .principal {
+        background-size: cover;
+        background-position: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
