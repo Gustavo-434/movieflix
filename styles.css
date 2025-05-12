@@ -1,18 +1,18 @@
 :root{
     --cor-de-fundo: #000800;
     --branco-princial: #ffffff;
---botao_azul:#167Bf7;
---cinza-secundario:#c0c0c0;
--moz-font;
+    --botao_azul:#167Bf7;
+    --cinza-secundario:#c0c0c0;
 
-*{margin: 0;
-padding: 0;}
-
+    *{
+        margin: 0;
+        padding: 0;
+    }
 }
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-princial);
-   font-family: "Inder", sans-serif;
+    font-family:  "Inder", sans-serif;
     font-size: 1rem;
 }
 .container{
@@ -21,12 +21,11 @@ body{
     grid-template-columns: 50% 50%;
 }
 .principal{
-    background-image:url(Background.png);
+    background-image:url(/imagens/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
-align-items:center;
-text-align: center;} 
-    .container-botao{
+} 
+.container-botao{
     background-color: var(--botao_azul);
     border-radius:10px;
     padding:1em;
@@ -35,22 +34,29 @@ text-align: center;}
     display: block;
     margin-bottom:1em;
 }
-.botao-secundario {background-color: transparent;
-border:2px solid var(--branco-princial);}
-
-.container-aviso{ color: var(--cinza-secundario);
-font-size: 0.75rem;
+.botao-secundario {
+    background-color: transparent;
+    border:2px solid var(--branco-princial);
 }
-
+.container-aviso{
+    color: var(--cinza-secundario);
+    font-size: 0.75rem;
+}
 .container-imagem{
     margin: 2em 0 2em 0;
 }
 .container-caixa{
     margin: 0 6em;
-}    
-.secundario-imagem{
-width: 80%;
+}
 
+/* Estilo para imagem no layout padrão */
+.container-caixa img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
 }
 .secundario{align-items: center;
 text-align: center;
@@ -113,6 +119,7 @@ margin-left: 1em;}
     color: blueviolet;
 }
 .red{color: aliceblue;}
+
 @media (max-width: 768px) {
     .container {
         display: block;
@@ -140,6 +147,14 @@ margin-left: 1em;}
         background-position: center;
     }
 
+    img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
     img {
         max-width: 100%;
         height: auto;
