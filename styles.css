@@ -25,6 +25,8 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 } 
+.descricao-titulo{
+text-align: center;
 .container-botao{
     background-color: var(--botao_azul);
     border-radius:10px;
