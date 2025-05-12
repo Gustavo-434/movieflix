@@ -42,6 +42,8 @@ body{
     color: var(--cinza-secundario);
     font-size: 0.75rem;
 }
+.descricao-texto{font-size: 2rem;
+text-align: center=;}
 .container-imagem{
     margin: 2em 0 2em 0;
 }
