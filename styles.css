@@ -77,7 +77,11 @@ margin: bottom 0.1em;}
     display: inline-block;
 
 }
-.secundario-imagens2{width: 79%}
+.secundario-imagens{
+    width: 100%;
+}
+.secundario-imagens2{width: 100%}
+
 .dispositivos{
     text-align: center;
 }
