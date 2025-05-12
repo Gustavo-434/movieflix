@@ -13,7 +13,7 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-princial);
     font-family:  "Inder", sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .container{
     height: 100vh;
@@ -40,7 +40,7 @@ body{
 }
 .container-aviso{
     color: var(--cinza-secundario);
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 .container-imagem{
     margin: 2em 0 2em 0;
@@ -57,36 +57,29 @@ body{
     display: block;
     margin: 1em auto;
 }
-
+}
 .secundario{align-items: center;
 text-align: center;
 margin: 0 10rem;
 font-family: "Inder", sans-serif;
 }
 .descricao-titulo{font-weight: 700;
-font-size: 3rem;
+font-size: 4rem;
 color: var(--branco-princial);
 margin: bottom 0.1em;}
 .descricao-texto{
  color: var(--cinza-secundario);
  text-align: center;
- font-size: 2rem;
 }
-.descricao-titulo{
-text-align: center;
-}
-.descricao-texto{font-size: 2rem;
-text-align: center;}
 .container-descricao{padding: 2em;
 }
 .secundario-botao{
     display: inline-block;
 
 }
-.secundario-imagens{
-    width: 100%;
-}
-.secundario-imagens2{width: 100%}
+.descricao-titulo{text-align: center;}
+.secundario-imagens{width: 100%;}
+.secundario-imagens2{width: 79%}
 .dispositivos{
     text-align: center;
 }
@@ -102,7 +95,6 @@ margin-top: 1em;}
     font-size: 1rem;
     color: var(--branco-princial);
 }
-.descricao-titulo{text-align: center;}
 .rodape{text-align: center;
 margin: 3em 3em;
 color: azure;}
